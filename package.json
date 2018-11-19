@@ -1,0 +1,29 @@
+{
+  "name": "telegram-bot-tap-az",
+  "version": "1.0.0",
+  "description": "Telegram bot for tap.az",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Haqverdi/telegram-bot-tap-az.git"
+  },
+  "keywords": [
+    "Telegram",
+    "bot"
+  ],
+  "author": "Haqverdi Behbudov",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Haqverdi/telegram-bot-tap-az/issues"
+  },
+  "homepage": "https://github.com/Haqverdi/telegram-bot-tap-az#readme",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "cheerio": "^1.0.0-rc.2",
+    "dotenv": "^6.1.0",
+    "telegraf": "^3.25.0"
+  }
+}
