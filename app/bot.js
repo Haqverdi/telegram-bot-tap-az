@@ -6,7 +6,6 @@ const bot = new Telegraf(process.env.BOT_TOKEN);
 
 // start command
 bot.command('start', ctx => {
-  console.log(ctx.from.first_name);
   // reply greet msg
   ctx.reply(
     `Salam, ${ctx.from.first_name} mən tap.az-dan yeni ev elanı olduqca onu sənə gondərəcəm.`
