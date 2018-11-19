@@ -1,0 +1,7 @@
+{
+  "version": 1,
+  "env": {
+    "BOT_TOKEN": "724350651:AAFDwHiExlaYwOyH1K-ie-z8fwK9mTtLhHQ",
+    "NODE_ENV": "production"
+  }
+}
