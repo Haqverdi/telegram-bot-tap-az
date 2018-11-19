@@ -4,7 +4,8 @@
   "description": "Telegram bot for tap.az",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon app.js",
+    "start": "node app.js"
   },
   "repository": {
     "type": "git",
@@ -25,5 +26,8 @@
     "cheerio": "^1.0.0-rc.2",
     "dotenv": "^6.1.0",
     "telegraf": "^3.25.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.6"
   }
 }

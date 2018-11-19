@@ -25,6 +25,11 @@ bot.command('start', ctx => {
   }, 60000);
 });
 
+// default hears reply
+bot.hears(RegExp(/^.*/g), ctx => {
+  ctx.reply(`Üzr istəyirəm ${ctx.from.first_name}, amma nəyi nəzərdə tutduğunuzu anlamıram hələki :(`);
+});
+
 // error handler
 bot.catch(err => {
   console.log('Ooops ', err);
